@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    .div2,.div3{
+       flex-wrap: wrap;
+    
+    }
+    .div1.div2{
+        margin-bottom: 20%;
+    }
+    .image2,.image3,.descp1,.descp2{
+        height: 100%;
+        width: 100%;
+    }
+    .image2{
+        order: 1;
+        margin-bottom: 5%;
+
+    }
+    .image3{
+        margin-bottom: 5%;
+    }
+    .descp1{
+        order: 2;
+        align-items: center;
+    }
+    .image4{
+        height: 60%;
+        width: 80%;
+    }
+     
+  }

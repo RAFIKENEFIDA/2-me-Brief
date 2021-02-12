@@ -1,0 +1,134 @@
+
+
+.gally{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+  justify-content: space-around;
+  padding: 3% 7% 3% 7%;
+}
+
+.boxy{
+    
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 20px ;
+}
+
+.boxy h1,h6{
+    text-align: center;
+    font-family: Poppins;
+    }
+    .boxy h1{
+        font-size: 17px;
+       
+    }
+    .boxy h6{
+        font-size: 13px;
+        opacity: 0.7;
+    }
+.gally :hover{
+   transform:scale(1.05,1.05) ;
+  transform: 1000ms;
+}  
+
+    
+
+  .title{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #B32137;
+}
+
+.header {
+    position: relative;
+}
+
+.gallery{
+   font-size: 40px;
+    color: white;
+    text-align: center;}
+
+    .image{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+    }   
+    #azerty{
+        width: 100%;
+        height: 100%; 
+    }
+
+    .even1,.even2,.even3{
+        display: flex;
+        flex-direction: column;
+        background-color: #B32137;
+        padding: 5% 2% 5% 5%;
+    }
+    .even1,.even2{
+        margin-bottom: 2%;
+    }
+    
+    .cont1,.cont2,.cont3{ 
+        display: flex;
+        flex-direction: row;
+     }
+
+     
+    .text1,.text2,.text3{
+        
+        color: black;
+      height: 45%;
+      width: 45%;
+    }
+
+    .image1,.image2,.image3{
+         width:  55%;  
+          height: 55%; 
+     
+    }
+    #azerty1,#azerty2,#azerty3{
+        height: 95%;
+        width: 95%;
+        border-radius: 5%;
+    }
+
+    #azerty1:hover{
+        width: 100%;
+        height: 100%;  
+    }
+
+     #azerty2:hover{
+        width: 100%;
+        height: 100%;  
+    }
+    
+    #azerty3:hover{
+        width: 100%;
+        height: 100%;  
+    }
+    
+    
+    
+    .name1, .name2, .name3 {
+        font-size:50px ;
+        color: white;
+        }
+
+    .boton{
+            width: 130px;
+            height: 35px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            font-size: 15px ;  
+        }
+        
+        .boton:hover{
+            background-color: #81256C;
+        } 
+
+
+
+
